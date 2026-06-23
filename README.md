@@ -12,11 +12,11 @@ A car rental platform supporting multiple vehicle categories (`EconomyCar`, `Bus
 - Rental history tracking per vehicle and customer
 ### 📚 Online Courses
 A full-featured e-learning platform with `Course` → `Module` → `Lesson` hierarchy. Lesson types include:
-- `VideoLecture` — pre-recorded content
-- `Webinar` — live online sessions
-- `TextMaterial` — reading assignments
-- `TestAssignment` — auto-graded quizzes
-- `TeacherCheckedAssignment` — manually reviewed tasks
+- `VideoLecture` - pre-recorded content
+- `Webinar` - live online sessions
+- `TextMaterial` - reading assignments
+- `TestAssignment` - auto-graded quizzes
+- `TeacherCheckedAssignment` - manually reviewed tasks
 Each lesson type carries a different progress weight. Students can enroll in courses, complete lessons sequentially, leave reviews, and earn certificates upon full completion. All progress is persisted between sessions.
 ### 🚇 Moscow Metro
 A graph-based metro route planner with full support for transfers between lines. Features include:
@@ -51,6 +51,6 @@ A comprehensive airport operations system handling flights, passengers, tickets,
 - **Persistent storage** with custom serialization (`toJson` / `fromJson`)
 - **State management** (flight status, luggage location, emergency situations)
 - **Console UI** with colored output and structured menus
-- **Task-repeat workflow** — each operation can be executed again without re-entering the subsystem
+- **Task-repeat workflow** - each operation can be executed again without re-entering the subsystem
 ## 📄 License
 The project is intended for educational purposes. It can be used and modified freely.
